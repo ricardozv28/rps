@@ -12,14 +12,39 @@
     <script src="/js/main.js"></script>
 
     <div class="row center">
-      <div class="col s4">Rock Paper Scissors</div>
+      <div class="col s12">Rock Paper Scissors</div>
       <br/>
-      <div class="col s4">Computer Choice</div>
-      <div class="col s4">Your Choice</div>
+      <div class="col s6">Computer Choice:
+        <div id="computer">
+        </div>
+      </div>
+      <div class="col s6">User Choice:
+        <div id="choice">
+
+        </div>
+      </div>
+
       <br/>
-      <div class="col s3"><img id="scissors" src="http://vignette4.wikia.nocookie.net/animeworld/images/6/62/600px-Rock-paper-scissors_%28scissors%29.png/revision/latest?cb=20100509011711&path-prefix=es"/></div>
-      <div class="col s3"><img id="paper" src="http://vignette1.wikia.nocookie.net/animeworld/images/f/fe/600px-Rock-paper-scissors_%28paper%29.png/revision/latest?cb=20100509010836&path-prefix=es"/></div>
-      <div class="col s3"><img id="rock" src="http://vignette3.wikia.nocookie.net/animeworld/images/7/7e/Rock-paper-scissors_%28rock%29.png/revision/latest?cb=20100509010715&path-prefix=es"/></div>
+      <div class="col s4">
+        <img id="scissors" src="http://vignette4.wikia.nocookie.net/animeworld/images/6/62/600px-Rock-paper-scissors_%28scissors%29.png/revision/latest?cb=20100509011711&path-prefix=es"/>
+      </div>
+      <div class="col s4">
+        <img id="paper" src="http://vignette1.wikia.nocookie.net/animeworld/images/f/fe/600px-Rock-paper-scissors_%28paper%29.png/revision/latest?cb=20100509010836&path-prefix=es"/>
+      </div>
+      <div class="col s4">
+        <img id="rock" src="http://vignette3.wikia.nocookie.net/animeworld/images/7/7e/Rock-paper-scissors_%28rock%29.png/revision/latest?cb=20100509010715&path-prefix=es"/>
+      </div>
+
+      <hr/>
+      <br/>
+
+      <div class="col s12" id="result"></div>
+      <br/>
+      <div class="col s6">Computer Won: <span id="win">0</span>
+      </div>
+      <div id="playerwin" class="col s6">User Won: <span id="won">0</span>
+      </div>
+      <button class="btn" id="reset">Start New Game</button>
     </div>
 
   </body>
