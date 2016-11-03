@@ -1,4 +1,9 @@
+html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
+
 body{
+  background: -webkit-linear-gradient(-45deg, rgba(179,220,237,1) 0%, rgba(124,193,214,1) 20%, rgba(213,231,237,1) 100%);
   padding: 20px;
   font-size: 20px;
 }
@@ -14,4 +19,8 @@ body{
 
 img{
   border: black 2px solid;
+}
+
+button{
+  border-radius: 3px;
 }
