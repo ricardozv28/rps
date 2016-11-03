@@ -51,12 +51,12 @@ $(document).ready (function() {
               ) {
                   result = "User Wins";
                   i += 1;
-                  $('#won').html(i);
+                  $('#cwin').html(i);
                 }
         else{
           result = "Computer Wins";
           j += 1;
-          $('#win').html(j);
+          $('#pwin').html(j);
         }
 
         return result;
