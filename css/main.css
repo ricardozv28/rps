@@ -1,0 +1,17 @@
+body{
+  padding: 20px;
+  font-size: 20px;
+}
+ #computer,
+ #choice,
+ #result{
+   margin: 15px 0;
+   padding: 10px;
+ }
+ #reset{
+   margin: 10px 0;
+ }
+
+img{
+  border: black 2px solid;
+}
