@@ -23,7 +23,6 @@ $(document).ready (function() {
       $('#choice').html(selection);
     });
 
-
     $('#paper').click( function(){
       computerChoice();
       selection = "paper";
@@ -32,7 +31,6 @@ $(document).ready (function() {
       $('#computer').html(computer);
       $('#choice').html(selection);
     });
-
 
     $('#rock').click( function(){
       computerChoice();
@@ -51,6 +49,7 @@ $(document).ready (function() {
               ) {
                   result = "User Wins";
                   i += 1;
+
                   $('#cwin').html(i);
                 }
         else{
@@ -78,5 +77,6 @@ $(document).ready (function() {
       $('#computer').html("");
       $('#choice').html("");
     });
+
 
 });
